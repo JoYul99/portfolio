@@ -268,3 +268,6 @@
 .sangse > p:nth-of-type(4) > span{
     margin-right: 7px;
 }
+.sangse > p:nth-of-type(5) > span{
+    margin-right: 30px;
+}
