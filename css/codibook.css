@@ -65,19 +65,6 @@
     margin-right: 3%;
     text-align: center;
 }
-.ps{
-    display: flex;
-    margin-top: 2%;
-    align-items: center;
-}
-.ps > div{
-    margin-left: 2%;
-}
-.ps > div > p{
-    font-size: 15px;
-    font-weight: bold;
-    color: #4d4d4d;
-}
 .fi{
     display: flex;
     margin-top: 2%;
@@ -87,19 +74,6 @@
     margin-left: 2%;
 }
 .fi > div > p{
-    font-size: 15px;
-    font-weight: bold;
-    color: #4d4d4d;
-}
-.ht{
-    display: flex;
-    margin-top: 2%;
-    align-items: center;
-}
-.ht > div{
-    margin-left: 2%;
-}
-.ht > div > p{
     font-size: 15px;
     font-weight: bold;
     color: #4d4d4d;
