@@ -166,6 +166,11 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+.sangse > p > span{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 .gyung > h2{
     color: #5B2C67;
     font-weight: bold;
@@ -270,4 +275,8 @@
 }
 .sangse > p:nth-of-type(5) > span{
     margin-right: 30px;
+}
+.ch > div{
+    text-align: center;
+    padding-right: 100px;
 }
