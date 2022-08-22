@@ -1,0 +1,70 @@
+@import url(common.css);
+
+.mainimg{
+    margin: 0 550px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 1000px;
+    display: flex;
+    align-items:center;
+}
+.mainimg > figure{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    border: 3px solid #5B2C67;
+}
+.mainimg > figure > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.mainimg > p{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 22px;
+}
+.jungbo{
+    margin: 0px 550px;
+    display: flex;
+    width: 1000px;
+}
+.jungbo2{
+    margin: 0px 550px;
+    display: flex;
+    width: 1000px;
+    
+}
+.jungbo3{
+    margin: 0px 550px;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+}
+.gyung{
+    margin-left: 35%;
+}
+.hak{
+    margin-left: 21.25%;
+}
+.jung1{
+    display: flex;
+}
+.ps{
+    display: flex;
+}
+.Ai{
+    display: flex;
+}
+.jung2{
+    display: flex;
+}
+.Fi{
+    display: flex;
+}
+.Ht{
+    display: flex;
+}
+.ch{
+    display: flex;
+}
