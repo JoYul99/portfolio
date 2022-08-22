@@ -3,7 +3,7 @@
 .mainimg{
     margin: 0 550px;
     margin-top: 5%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     width: 1000px;
     display: flex;
     align-items:center;
@@ -20,51 +20,251 @@
     border-radius: 100px;
 }
 .mainimg > p{
-    margin-left: 10%;
+    margin-left: 5%;
     font-weight: bold;
     font-size: 22px;
 }
+.mainimg > p::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 520px;
+    margin-top: 5px;
+}
 .jungbo{
     margin: 0px 550px;
+    margin-bottom: 2%;
     display: flex;
-    width: 1000px;
+    width: 70%;
 }
 .jungbo2{
     margin: 0px 550px;
+    margin-bottom: 2%;
     display: flex;
-    width: 1000px;
+    width: 70%;
     
 }
 .jungbo3{
     margin: 0px 550px;
     display: flex;
-    width: 1000px;
-    height: 500px;
+    width: 70%;
+  
+}
+.sangse{
+    width: 45%;
 }
 .gyung{
-    margin-left: 35%;
+    width: 45%;
+}
+.ja{
+    width: 45%;
 }
 .hak{
-    margin-left: 21.25%;
+    width: 45%;
+}
+.chui{
+    width: 45%;
+}
+.gi{
+    width: 45%;
 }
 .jung1{
     display: flex;
+    margin-bottom: 3%;
+    width: 100%;
 }
 .ps{
     display: flex;
+    width: 40%;
 }
 .Ai{
     display: flex;
+    width: 40%; 
 }
 .jung2{
     display: flex;
+    width: 100%;
 }
 .Fi{
     display: flex;
+    width: 40%;
 }
 .Ht{
     display: flex;
+    width: 40%;
 }
 .ch{
     display: flex;
+}
+.ch > div{
+    width: 25%;    
+}
+.ch > div > p{
+    font-size: 19px;
+    font-weight: bold;
+    color: #4d4d4d;    
+}
+.ps > figure{
+    margin-right: 2%;
+}
+.Ai > figure{
+    margin-right: 2%;
+}
+.Fi > figure{
+    margin-right: 2%;
+}
+.Ht > figure{
+    margin-right: 2%;
+}
+.ps > div> p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.ps > div{
+    padding-top:1%;
+}
+.Ai > div> p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.Ai > div{
+    padding-top:1%;
+}
+.Fi > div> p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.Fi > div{
+    padding-top:1%;
+}
+.Ht > div> p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.Ht > div{
+    padding-top:1%;
+}
+.sangse > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.sangse > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.sangse > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.gyung > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.gyung > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.gyung > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ja > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.ja > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.ja > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.hak > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.hak > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.hak > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.gi > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.gi > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.gi > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.chui > h2{
+    color: #5B2C67;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.chui > h2::after{
+    content: '';
+    border-bottom: 3px solid #5B2C67;
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+.chui > p{
+    color: #4d4d4d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sangse > p:nth-of-type(1) > span{
+    margin-right: 30px;
+}
+.sangse > p:nth-of-type(2) > span{
+    margin-right: 30px;
+}
+.sangse > p:nth-of-type(3) > span{
+    margin-right: 7px;
+}
+.sangse > p:nth-of-type(4) > span{
+    margin-right: 7px;
 }
