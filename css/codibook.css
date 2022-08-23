@@ -78,3 +78,16 @@
     font-weight: bold;
     color: #4d4d4d;
 }
+.link{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 3%;
+    border: 5px solid #5B2C67;
+    border-radius: 15px;  
+}
+.link > a {
+    color: #5B2C67;
+    font-size: 18px;
+    font-weight: bold;
+}
